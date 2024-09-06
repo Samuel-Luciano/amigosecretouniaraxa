@@ -12,6 +12,6 @@ const transport = nodemailer.createTransport({
 transport.sendMail({
     from: 'meuemail@email.com',
     to: 'destinoemail@email.com',
-    subject: 'Assunto do email aqui...',
-    text: 'Corpo do email aqui...'
+    subject: 'Convite Amigo Secreto Uniaraxá',
+    text: 'Convido você a participar do Amigo Secreto Uniaraxá'
 })
